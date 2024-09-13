@@ -1,13 +1,12 @@
 # Admin Dashboard
 
-This repository contains a simple admin e-commerce dashboard with CRUD operations and login authorization using Node.js, Express.js, and MongoDB.
+This repository includes an admin e-commerce dashboard with CRUD operations and secure login system, built with Node.js, Express.js, and MongoDB.
 
 ## Features
-- User authentication and authorization
+- Admin authentication and authorization
 - Product management (Create, Read, Update, Delete)
 - Category management (Create, Read, Update, Delete)
 - Middleware for protected routes
-- User management
 - Hashing and salting passwords
 
 ## Technologies Used
@@ -17,6 +16,7 @@ This repository contains a simple admin e-commerce dashboard with CRUD operation
 - Mongoose
 - JSON Web Tokens (JWT)
 - Bcrypt.js
+
 ## Getting Started
 
 To get a local copy up and running, follow these steps:
