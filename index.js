@@ -26,13 +26,4 @@ connectDB();
 
 app.listen(port);
 
-// users => {id, username, password, email, adress, phone_number, wishlist, role}
-// cat => {id, title, img_url, desc}
-// products => {id, title, price, stock, expired_date, main_image, images: [], description, properties: [objectid]}
-// properties => {id, key, value}
-// orders => {id, user_id, products: [Objectid], adress, traking_phonenumber, payment_mathod, status},
-// UserReacts => {id, user_id, product_id, comment, rate}
-//
-//tailwind installing:
-//npm install -D tailwindcss postcss autoprefixer
-//npx tailwindcss init -p
+

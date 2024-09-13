@@ -7,14 +7,14 @@ const userMethods = new GenericMethods(userModel);
 
 const protectedRoutes = async (req, res, next) => {
   try {
-    //1- check if token is exist
+    //1- check if token exists
     const token = req.cookies.token;
     console.log("token => ", token);
 
-    //2- verfy token
+    //2- verify token
     const { id } = JWT.verify(token, JWT_SECERT);
 
-    //3- check if user still exist
+    //3- check if user still exists
     const user = await userMethods.getById(id);
 
     if (!user || user.role !== "admin") {
